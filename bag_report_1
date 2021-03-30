@@ -1,0 +1,19 @@
+ID	BUG_1
+Date	28.01.2021
+Reporter	Lendiel Nataliia
+Asagnee	Serhi Lozytskyi
+	
+Summary	тагл автопополнения счета во время заполнения формы на вкладке Автопополнения 
+Severity	Blocker/Critical/Major/Normal/Minor
+Priority	Fix in release/Must fix/ Fix if time/ Never fix
+	
+Precondition:	Перейти на страницу https://pay.vodafone.ua/uk/top-up
+Steps to reproduce (STR)	"
+1) Перейти на вкладку автопополнение 
+2) Переключить тагл Автопополнение счета"
+
+Actual Result (AR)	При нажатии на тагл и на слово Автополнение тагл не переключается. Форма "Параметры автопополнения счета" остается неактивный.
+
+Expected Result	При нажатии на тагл и на слово Автополнение тагл должен переключаться и при этом форма "Параметры автопополнения счета" должна стать активной.
+Postcondition	Закрыть вкладку 
+Attachment	
